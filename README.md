@@ -23,3 +23,16 @@
 | Location | https://github.com/bkamplai/AdvPy-bekamplain/tree/main/git-it |
 | Self Grade | 100/100 |
 | Notes | complete all of the requirements found in the google doc; screenshot found in same location as well as the hello world program |
+
+### Project #1
+
+| Name | Value |
+| :--- | :--- |
+| Name | Kattis Problems and Unittest |
+| Description | Solving Kattis problems using Python3 and unittests |
+| Kattis Problems | Buka - 2.0 <br> |
+| Due Date | 28-Sep-23 |
+| Status | In-progress |
+| Location | https://github.com/bkamplai/AdvPy-bekamplain/tree/main/kattis |
+| Self Grade | - |
+| Notes | - |
