@@ -30,7 +30,7 @@
 | :--- | :--- |
 | Name | Kattis Problems and Unittest |
 | Description | Solving Kattis problems using Python3 and unittests |
-| Kattis Problems | Buka - 2.0 <br> Simple Addition - 2.0 <br> |
+| Kattis Problems | Buka - 2.0 <br> Simple Addition - 2.0 <br> Aaah! - 2.0 <br> |
 | Due Date | 28-Sep-23 |
 | Status | In-progress |
 | Location | https://github.com/bkamplai/AdvPy-bekamplain/tree/main/kattis |
