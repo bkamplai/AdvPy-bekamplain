@@ -30,9 +30,9 @@
 | :--- | :--- |
 | Name | Kattis Problems and Unittest |
 | Description | Solving Kattis problems using Python3 and unittests |
-| Kattis Problems | Buka - 2.0 <br> Simple Addition - 2.0 <br> Aaah! - 2.0 <br> |
+| Kattis Problems | Buka - 2.0 <br> Simple Addition - 2.0 <br> Aaah! - 2.0 <br> A Different Problem - 2.8 |
 | Due Date | 28-Sep-23 |
 | Status | In-progress |
 | Location | https://github.com/bkamplai/AdvPy-bekamplain/tree/main/kattis |
 | Self Grade | - |
-| Notes | - |
+| Notes | To-Do: <br> - Make Makefiles for each of the programs <br> - Redo SS using Makefiles <br> - Resubmit edited scripts to Kattis <br> - Edit scripts to meet criteria of the Makefile <br> - Redo SS of Kattis Submissions |
