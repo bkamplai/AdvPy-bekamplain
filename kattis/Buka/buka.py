@@ -1,13 +1,14 @@
 # Difficulty: 2.0
 
-def is_power_of_ten(num):
+def is_power_of_ten(num: int) -> bool:
     while num > 1:
         if num % 10 != 0:
             return False
         num //= 10
     return True
 
-def calculate(A, operand, B):
+
+def calculate(A: str, operand: str, B: str) -> (int | None):
     if len(A) > 100 or len(B) > 100:
         return None
     elif not A.isdigit() or not B.isdigit():
@@ -15,12 +16,10 @@ def calculate(A, operand, B):
     elif operand != "*" and operand != "+":
         return None
     else:
-        int_A = int(A)
-        int_B = int(B)
-
+        int_A: int = int(A)
+        int_B: int = int(B)
         if int_A <= 0 or int_B <= 0:
             return None
-        
         if is_power_of_ten(int_A) and is_power_of_ten(int_B):
             if operand == "*":
                 return int_A * int_B
@@ -31,9 +30,8 @@ def calculate(A, operand, B):
 
 
 if __name__ == "__main__":
-    A = input()
-    operand= input()
-    B = input()
-
+    A: str = input()
+    operand: str = input()
+    B: str = input()
     result = calculate(A, operand, B)
     print(result)
