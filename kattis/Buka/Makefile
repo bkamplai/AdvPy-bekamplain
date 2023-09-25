@@ -1,7 +1,7 @@
 MAIN = buka.py
 PY = python3
 
-all: check_style check_types unittest localtest unittest_pytest
+all: check_style check_types unittest localtest unittest_pytest submit clean
 	@echo "All tests passed!"
 
 localtest:
@@ -16,10 +16,10 @@ ifeq ($(shell which pytest), )
 	@echo "pytest not found. Installing..."
 	pip install pytest
 endif
-	pytest test_unit_buka.py
+	pytest -v test_unit_buka.py
 
 unittest_pytest:
-	pytest --hypothesis-show-statistics --hypothesis-seed=100 test_unit_buka.py
+	pytest -v --hypothesis-show-statistics --hypothesis-seed=100 test_unit_buka.py
 
 check_types:
 	mypy --disallow-untyped-defs --strict buka.py
@@ -27,3 +27,10 @@ check_types:
 
 check_style:
 	flake8 buka.py --count --show-source --statistics
+
+submit:
+	kattis --problem buka --language 'python 3' --force $(MAIN)
+
+clean:
+	rm -rf __pycache__
+	rm -rf *.pyc

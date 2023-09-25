@@ -1,5 +1,5 @@
 import unittest
-from hypothesis import given, strategies as st
+from hypothesis import given, strategies as st # type: ignore
 from buka import calculate, is_power_of_ten
 
 class TestBuka(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestBuka(unittest.TestCase):
         result = calculate("10", "/", "10")
         self.assertIsNone(result)
     
-    @given(st.integers(min_value=1, max_value=1000000))
+    @given(st.integers(min_value=1, max_value=1000000)) # type: ignore
     def test_random_valid_inputs(self, A: int) -> None:
         B = "10"
         result = calculate(str(A), "+", B)

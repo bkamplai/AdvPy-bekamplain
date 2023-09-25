@@ -1,4 +1,6 @@
-# Difficulty: 2.0
+# Difficulty: 2.1
+from typing import Union
+
 
 def is_power_of_ten(num: int) -> bool:
     while num > 1:
@@ -8,7 +10,7 @@ def is_power_of_ten(num: int) -> bool:
     return True
 
 
-def calculate(A: str, operand: str, B: str) -> (int | None):
+def calculate(A: str, operand: str, B: str) -> Union[int, None]:
     if len(A) > 100 or len(B) > 100:
         return None
     elif not A.isdigit() or not B.isdigit():

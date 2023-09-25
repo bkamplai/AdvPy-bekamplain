@@ -1,4 +1,4 @@
-# Difficulty: 2.0
+# Difficulty: 2.1
 from typing import Union
 
 
