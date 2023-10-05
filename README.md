@@ -36,3 +36,15 @@
 | Location | https://github.com/bkamplai/AdvPy-bekamplain/tree/main/kattis |
 | Self Grade | 100/100 |
 | Notes | Match the requirments of the Google Doc. Screenshots can be found under "Screenshots" in each of the problem folders. |
+
+### Project #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | Git Best Practice and Container |
+| Description | - |
+| Due Date | 31-Oct-23 |
+| Status | In-Progress |
+| Location | https://github.com/bkamplai/git-best-practices-container |
+| Self Grade | - |
+| Notes | - |
