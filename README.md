@@ -42,9 +42,9 @@
 | Name | Value |
 | :--- | :--- |
 | Name | Git Best Practice and Container |
-| Description | - |
+| Description | Practice using Docker containers and using best practices when using git/GitHub |
 | Due Date | 31-Oct-23 |
-| Status | In-Progress |
+| Status | Completed |
 | Location | https://github.com/bkamplai/git-best-practices-container |
-| Self Grade | - |
-| Notes | - |
+| Self Grade | 100/100 |
+| Notes | Match requirements from Word document. Actual Kattis problem can be found under 'cosmicpathoptimization' with the screenshots of the Makefiles completion. |
