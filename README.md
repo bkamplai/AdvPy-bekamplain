@@ -48,3 +48,15 @@
 | Location | https://github.com/bkamplai/git-best-practices-container |
 | Self Grade | 100/100 |
 | Notes | Match requirements from Word document. Actual Kattis problem can be found under 'cosmicpathoptimization' with the screenshots of the Makefiles completion. |
+
+### Final Project
+
+| Name | Value |
+| :--- | :--- |
+| Name | Web App using MongoDB and REST API |
+| Description | - |
+| Due Date | 5-Dec-23 |
+| Status | In Progress |
+| Location | https://github.com/Arhunter129/AdvPy-FinalProject-QuizGame |
+| Self Grade | - |
+| Notes | - |
