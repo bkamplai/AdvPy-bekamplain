@@ -56,7 +56,7 @@
 | Name | Web App using MongoDB and REST API |
 | Description | Make a web app using MongoDB and REST API |
 | Due Date | 5-Dec-23 |
-| Status | In Progress |
+| Status | Completed |
 | Location | https://github.com/Arhunter129/AdvPy-FinalProject-QuizGame |
 | Self Grade | 100/100 |
 | Notes | Was in charge of the database portion of the web app. Match requirements from the Word document. The screenshot and Makefile are found under the 'Database' folder. |
